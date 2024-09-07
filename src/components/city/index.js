@@ -57,7 +57,7 @@ class City extends Component{
             const {cityname} =params;
            
             console.log(`Getting weather for ${cityname}`);
-            const url=`http://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${key}`
+            const url=`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${key}`
             const options={
                 method:"GET"
             }
