@@ -8,6 +8,8 @@ import { FaSearchLocation } from "react-icons/fa";
 
 import {ThreeDots} from "react-loader-spinner";
 
+import Geolocation from "../geolocation";
+
 import "./index.css";
 
 class Home extends Component{
@@ -133,6 +135,9 @@ class Home extends Component{
             <div className="bg-all">
               
                 <h1 className="welcome-note"> Welcome to Weather App</h1>
+
+
+                <Geolocation />
 
                 <div className="search-div">
                     <div>

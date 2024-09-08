@@ -51,11 +51,11 @@
     color:rgb(70, 87, 9);
     font-size:16px;
     background-color: rgb(253, 250, 247);
-    width:288px;
+    width:50%;
 
 }
 .search-input{
-    width:280px;
+    width:50%;
     padding:10px;
     border:1px solid rgb(125, 109, 109);
     border-radius:5px;
@@ -68,11 +68,11 @@
 
 .welcome-note{
     text-align: center;
-    font-size:33px;
+    font-size:38px;
     
-    margin-bottom: 36px;
-    height:44px;
-    background-image:linear-gradient(to right, rgb(50, 240, 7), rgb(52, 8, 224));
+    margin-bottom: 55px;
+    
+    background-image:linear-gradient(to right, rgb(49, 250, 4),rgb(24, 55, 24), rgb(53, 4, 249));
     background-clip: text;
   
     color:transparent;
@@ -133,13 +133,13 @@
 
 @media (max-width: 768px) {
     .search-city{
-        width:200px;
+        width:80%;
     }
     .search-input{
-        width:200px;
+        width:80%;
     }
     .welcome-note{
-        font-size:18px;
+        font-size:24px;
     }
     .cities-text{
         font-size:16px;

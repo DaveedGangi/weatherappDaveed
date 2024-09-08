@@ -1,0 +1,29 @@
+
+
+.user-weather-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.user-weather-card{
+    width:60%;
+    text-align: center;
+    background-color:#03045e;
+    color:#caf0f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom:66px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+@media (max-width: 768px) {
+    .user-weather-card {
+        width: 90%;
+    }
+}
