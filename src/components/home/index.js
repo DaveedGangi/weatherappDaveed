@@ -134,7 +134,7 @@ class Home extends Component{
         return(
             <div className="bg-all">
               
-                <h1 className="welcome-note"> Welcome to Weather App</h1>
+                <h1 className="welcome-note"> Welcome to BreezeCast App</h1>
 
 
                 <Geolocation />

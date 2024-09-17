@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(2, 2, 2);
+  padding: 10px;
+  color: rgb(241, 241, 247);
+  height:55px;
+
+
+
+}
+.home-link{
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(197, 199, 217);
+  text-decoration: none;
+  margin-left: 20px;
+
+}
+.image-app{
+  height:55px;
+  width:200px;
+  margin-top:15px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +62,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media (max-width: 768px) {
+  .image-app{
+    height: 35px;
+    width: 150px;
+    margin-top: 12px;
+  }
+  .home-link{
+    font-size: 18px;
+    margin-left: 12px;
+  }
+  .nav-bar{
+    padding: 5px;
+    height:40px;
+  }
+
 }

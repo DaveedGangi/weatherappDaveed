@@ -4,6 +4,10 @@ import {Component} from "react";
 
 import { Link } from "react-router-dom";
 
+import { FaLinkedin } from "react-icons/fa";
+
+import { BsTwitterX } from "react-icons/bs";
+
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -308,6 +312,21 @@ class City extends Component{
            }
 
 
+
+
+
+<div className="footer">
+      <div className="footer-content">
+          <p>&copy; {new Date().getFullYear()}  BreezeCast. All rights reserved.</p>
+          <p>You can contact the developer at <a href="mailto:daveeddaveedd@gmail.com">daveeddaveedd@gmail.com</a></p>
+          <p>This is a demo version of the BreezeCast website, please use it responsibly.</p>
+          <p>
+            Connect with me: 
+            <a href="https://x.com/Daveed53460412" target="_blank" rel="noopener noreferrer"><BsTwitterX /> Twitter</a> | 
+            <a href="https://www.linkedin.com/in/g-daveed-365958190/" target="_blank" rel="noopener noreferrer"><FaLinkedin /> LinkedIn</a>
+          </p>
+        </div>
+     </div>
            
                
 
