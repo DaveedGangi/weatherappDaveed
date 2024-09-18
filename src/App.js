@@ -1,10 +1,10 @@
 import {Route,Switch,Link} from "react-router-dom";
 
-import Home from "./components/home"
+import Home from "./components/home";
 
-import City from "./components/city"
+import City from "./components/city";
 
-import "./App.css"
+import "./App.css";
 
 function App() {
   return (
