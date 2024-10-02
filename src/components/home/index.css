@@ -95,9 +95,10 @@
 }
 
 .city-link{
-    list-style-type: none;
-    text-decoration: none;
-    color:#190606;
+   
+   
+    text-decoration:underline;
+    color:rgb(2, 2, 44);
 }
 
 .loading-spinner{
